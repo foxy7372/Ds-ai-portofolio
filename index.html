@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Scientist & AI Trainer Portfolio</title>
+    <meta name="description"
+        content="Portfolio Data Scientist & AI Trainer — membangun pipeline data, model prediktif, dan melatih generasi profesional data berikutnya.">
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-logo">DS.AI</div>
+            <div class="preloader-bar">
+                <div class="preloader-bar-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">DS<span class="logo-dot">.</span>AI</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#experience" class="nav-link">Experience</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="burger" id="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero">
+        <canvas id="particleCanvas"></canvas>
+        <div class="hero-content">
+            <div class="hero-badge">🚀 Available for Projects & Training</div>
+            <h1>Data Scientist <span class="highlight">&</span> <span id="typedText"></span><span
+                    class="cursor">|</span></h1>
+            <p class="hero-subtitle">Transforming complex data into actionable insights and empowering others to do the
+                same.</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary"><i class="fas fa-rocket"></i> View Projects</a>
+                <a href="#contact" class="btn secondary"><i class="fas fa-paper-plane"></i> Contact Me</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="5">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Years Experience</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="20">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Projects Done</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="100">0</span><span class="stat-plus">+</span>
+                    <span class="stat-label">Students Trained</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="reveal">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <div class="about-intro-badge"><i class="fas fa-user-astronaut"></i> Who Am I?</div>
+                    <p>Saya menjembatani kesenjangan antara kompleksitas teknis dan pemahaman manusia. Sebagai
+                        <strong>Ilmuwan Data</strong>, saya membangun pipeline yang tangguh dan model prediktif. Sebagai
+                        <strong>Pelatih AI</strong>, saya menguraikan konsep-konsep ini untuk mendidik generasi
+                        profesional data berikutnya.
+                    </p>
+                    <p>Dengan semangat yang tinggi terhadap kode dan kurikulum, saya membantu organisasi tidak hanya
+                        mengimplementasikan solusi AI tetapi juga memahaminya.</p>
+                    <div class="about-tags">
+                        <span class="about-tag"><i class="fas fa-code"></i> Python Expert</span>
+                        <span class="about-tag"><i class="fas fa-brain"></i> ML/AI</span>
+                        <span class="about-tag"><i class="fas fa-chalkboard-teacher"></i> Trainer</span>
+                        <span class="about-tag"><i class="fas fa-database"></i> Data Engineering</span>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="code-block">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="code-filename">about_me.py</span>
+                        </div>
+                        <pre><code><span class="code-keyword">class</span> <span class="code-class">DataScientist</span>:
+    <span class="code-keyword">def</span> <span class="code-func">__init__</span>(<span class="code-param">self</span>):
+        <span class="code-param">self</span>.skills = [<span class="code-string">"Python"</span>, <span class="code-string">"ML"</span>, <span class="code-string">"Teaching"</span>]
+        <span class="code-param">self</span>.passion = <span class="code-string">"Solving Problems"</span>
+        <span class="code-param">self</span>.coffee = <span class="code-number">float</span>(<span class="code-string">"inf"</span>)
+
+    <span class="code-keyword">def</span> <span class="code-func">train_ai</span>(<span class="code-param">self</span>, audience):
+        <span class="code-keyword">return</span> empower(audience) <span class="code-comment"># 🚀</span></code></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="reveal">
+        <div class="container">
+            <h2 class="section-title">Technical & Training Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon-wrapper">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Data Science & AI</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span>Python (Pandas, Scikit-learn, PyTorch)</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span>Machine Learning & Deep Learning</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span>Natural Language Processing (NLP)</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span>Computer Vision</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="80"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon-wrapper">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Data Analysis & Visualization</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span>SQL & Database Management</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span>Power BI & Tableau</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span>Statistical Analysis</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span>Exploratory Data Analysis (EDA)</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="92"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon-wrapper">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <h3>Training & Soft Skills</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span>Curriculum Development</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="92"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span>Technical Workshops</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span>Public Speaking</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar-item">
+                            <div class="skill-bar-header">
+                                <span>Mentoring & Code Review</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar-track">
+                                <div class="skill-bar-fill" data-width="90"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="reveal">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="project-grid">
+                <!-- Project 1: Titanic -->
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <div class="project-icon"><i class="fas fa-ship"></i></div>
+                        <span class="project-badge">Machine Learning</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Titanic Survivability Pipeline</h3>
+                        <p>An end-to-end classification pipeline predicting passenger survival. Features rigorous
+                            feature engineering, model selection, and hyperparameter tuning.</p>
+                        <ul class="tech-stack">
+                            <li><i class="fab fa-python"></i> Python</li>
+                            <li>Scikit-learn</li>
+                            <li>Pandas</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="assets/End-to-End Classification Pipeline on Titanic Survivability.csv" download
+                                class="project-btn">
+                                <i class="fas fa-file-csv"></i> Download Dataset
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Power BI -->
+                <div class="project-card">
+                    <div class="project-card-header">
+                        <div class="project-icon"><i class="fas fa-chart-pie"></i></div>
+                        <span class="project-badge">Data Visualization</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>InlasiIDN 2025 Dashboard</h3>
+                        <p>Interactive Power BI dashboard visualizing key metrics for InlasiIDN. Provides actionable
+                            insights through dynamic filtering and drill-down capabilities.</p>
+                        <ul class="tech-stack">
+                            <li>Power BI</li>
+                            <li>DAX</li>
+                            <li>Data Modeling</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="assets/InlasiIDN_2025.pbix" download class="project-btn">
+                                <i class="fas fa-file-download"></i> Download Dashboard
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="reveal">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="date"><i class="fas fa-calendar-alt"></i> Present</div>
+                        <h3>AI Trainer & Consultant</h3>
+                        <p>Delivering high-impact workshops on Machine Learning and Data Analytics. Consulting for
+                            efficient data pipeline architectures.</p>
+                        <div class="experience-tags">
+                            <span>Workshops</span>
+                            <span>ML</span>
+                            <span>Consulting</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="date"><i class="fas fa-calendar-alt"></i> 2023 - 2024</div>
+                        <h3>Senior Data Scientist</h3>
+                        <p>Led a team of analysts to optimize customer retention models, increasing retention by 15%.
+                        </p>
+                        <div class="experience-tags">
+                            <span>Team Lead</span>
+                            <span>Retention</span>
+                            <span>+15%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="reveal">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <p class="contact-intro">Open for collaborations, training sessions, and consulting opportunities.
+                    </p>
+                    <div class="contact-cards">
+                        <a href="mailto:you@example.com" class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <span>Email Me</span>
+                        </a>
+                        <a href="#" class="contact-card">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/foxy7372" target="_blank" class="contact-card">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="formName" placeholder="Your Name" required>
+                        <label for="formName"><i class="fas fa-user"></i></label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="formEmail" placeholder="Your Email" required>
+                        <label for="formEmail"><i class="fas fa-at"></i></label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="formMessage" placeholder="Your Message" rows="5" required></textarea>
+                        <label for="formMessage"><i class="fas fa-comment-dots"></i></label>
+                    </div>
+                    <button type="submit" class="btn primary submit-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">DS<span class="logo-dot">.</span>AI</div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <p class="footer-copy">&copy; 2026 Data Science & AI Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
